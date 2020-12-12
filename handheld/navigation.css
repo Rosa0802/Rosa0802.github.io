@@ -2,7 +2,7 @@
  
 #primary_nav ul {
     list-style: none;
-    background: #1c1c1c;
+    background: #0066ff;
     padding: 5px 0;
 }
  
@@ -26,7 +26,7 @@
  
 #primary_nav li a:hover,
 #primary_nav li a:focus {
-    color: #1c1c1c;
+    color: #0066ffc;
     background: #ccc;
 }
  

@@ -2,7 +2,7 @@
  
 body {
     font: 16px/1.4em ’PT Sans’, sans-serif;;
-    color: #1c1c1c;
+    color: #ffffff;
 }
  
 p,
@@ -37,7 +37,7 @@ h2 {
 }
  
 article {
-    border-bottom: 1px solid #d8d8d8;
+    border-bottom: 1px solid #ffffff;
     padding: 10px 20px 0 20px;
     margin: 10px 0;
 }
@@ -45,7 +45,7 @@ article {
 /*header*/
  
 header {
-    background: #1c1c1c;
+    background: #ffffff;
     padding: 15px 20px;
 }
  

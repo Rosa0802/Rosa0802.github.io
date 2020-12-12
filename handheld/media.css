@@ -1,5 +1,8 @@
 @media only screen and (min-width: 768px) {         
- 
+             
+#primary_nav li.top {
+    display: none;
+}
     a.to_nav {
         display: none;
     }

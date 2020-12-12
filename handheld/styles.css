@@ -71,7 +71,7 @@
    }
 
    .header-blue-box {
-       background-color: #blue;
+       background-color: #2114fb;
        width: 300px;
        height: 300px;
        position: relative;
@@ -79,7 +79,7 @@
    }
    .econnect {
        position: relative;
-       padding-top: 200px;
+       padding-top: 160px;
    }
    .econnect h1 {
        font-size: 150px;
@@ -92,7 +92,7 @@
        height: 100px;
        width: 100%;
        margin-top: 20px;
-       background-color: blue;
+       background-color: black;
        position: relative;
        display: block;
    }
@@ -102,7 +102,25 @@
 .footer h1 {
     font-size: 2em;
 }
- 
+   @media only screen and (min-width:1200px) {
+       .wrapper {
+           max-width: 800px;
+       }
+       .header-blue-box {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        float: left;
+    }
+    .econnect {
+        position: relative;
+        padding-top: 85px;
+    }
+    .econnect h1 {
+        font-size: 140px;
+    }
+   }
+
    @media only screen and (min-width:768px) {
     .wrapper {
         max-width: 800px;
@@ -123,17 +141,17 @@
 }
 
 #one {
-    background-color: #ff9966;
+    background-color: #7af72b;
 }
 #two {
-    background-color: #cc3300;
+    background-color: #7ff8ff;
 }
 #three {
-    background-color: #cc7a00;
+    background-color: #e848fc;
 }
 #four {
-    background-color: #3399ff;
+    background-color: #2114fb;
 }
 #five {
-    background-color: #cc66ff;
+    background-color: #e5440b;
 }

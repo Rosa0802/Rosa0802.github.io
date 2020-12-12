@@ -52,7 +52,7 @@ header {
         /*shorter clearfix http://nicolasgallagher.com/micro-clearfix-hack/*/
         header:before,
         header:after {
-            content:"";
+            content:"eCampus";
             display:table;
         }
          

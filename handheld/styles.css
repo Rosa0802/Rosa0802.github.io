@@ -102,25 +102,7 @@
 .footer h1 {
     font-size: 2em;
 }
-   @media only screen and (min-width:1200px) {
-       .wrapper {
-           max-width: 800px;
-       }
-       .header-blue-box {
-        width: 200px;
-        height: 200px;
-        position: relative;
-        float: left;
-    }
-    .econnect {
-        position: relative;
-        padding-top: 85px;
-    }
-    .econnect h1 {
-        font-size: 140px;
-    }
-   }
-
+ 
    @media only screen and (min-width:768px) {
     .wrapper {
         max-width: 800px;

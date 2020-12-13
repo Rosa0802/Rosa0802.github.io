@@ -47,8 +47,9 @@ article {
 header {
     background: #1c1c1c;
     padding: 15px 20px;
+  color: #ffffff;
 }
- 
+
         /*shorter clearfix http://nicolasgallagher.com/micro-clearfix-hack/*/
         header:before,
         header:after {

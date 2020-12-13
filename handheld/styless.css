@@ -45,7 +45,7 @@ article {
 /*header*/
  
 header {
-    background: #ffffff;
+    background: #1c1c1c;
     padding: 15px 20px;
 }
  
@@ -95,6 +95,6 @@ a.to_nav {
  
 a.to_nav:hover,
 a.to_nav:focus {
-    color: #3366ff;
+    color: #1c1c1c;
     background: #ccc;
 }

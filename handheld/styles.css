@@ -72,17 +72,17 @@
 
    .header-blue-box {
        background-color: #2114fb;
-       width: 200px;
-       height: 200px;
+       width: 150px;
+       height: 150px;
        position: relative;
        float: left;
    }
    .econnect {
        position: relative;
-       padding-top: 140px;
+       padding-top: 100px;
    }
    .econnect h1 {
-       font-size: 140px;
+       font-size: 100px;
    }
    .text {
        padding-top: 40px;

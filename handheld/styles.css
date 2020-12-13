@@ -23,7 +23,6 @@
        font: inherit;
        vertical-align: baseline;
        font-family: "Montserrat", "Open Sans", Helvetica, Arial, sans-serif;
-      
    }
    /* HTML5 display-role reset for older browsers */
    article, aside, details, figcaption, figure, 
@@ -41,7 +40,7 @@
    }
    blockquote:before, blockquote:after,
    q:before, q:after {
-       content: â€™â€™;
+       content: ’’;
        content: none;
    }
     
@@ -141,7 +140,6 @@
  }
 }
 
-
 #one {
     background-color: #ff9966;
 }
@@ -149,7 +147,7 @@
     background-color: #cc3300;
 }
 #three {
-    background-color: #ffcc99c;
+    background-color: #ffcc99;
 }
 #four {
     background-color: #99ccff;

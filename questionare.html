@@ -1,31 +1,23 @@
 <!DOCTYPE html>
 <html>
 <body>
-
-<script>
-	//declare an array of size 3
-	var details = new Array(3)
-    
-    //prompt the user for input
-	details[0] = prompt("Please enter your name", "Name");
-    details[1] = prompt("Please enter your Address", "Address");
-    details[2] = prompt("Please enter your occupation", "Occupation");
-    
-    //form a string with all details
-    var detail="";
-    var i;
-    
-    //concatente each string
-    //<br> is used to change line
-    for(i=0;i<details.length;i++)
-    	detail = detail + details[i] +"<br>"
-        
-    //write the details to the page using innerHtml
-    document.getElementById("key").innerHTML =detail;
-    
-
-
-</script>
+import java.util.*;
+public class Main
+{
+   public static void main(String[] args)
+   {
+   Scanner s = new Scanner(System.in);
+       System.out.println("Enter your name:");
+       String name = s.next();
+       System.out.println("Enter your age:");
+       int age = s.nextInt();
+       System.out.println("Enter your favourite food:");
+       String food = s.next();
+       System.out.println("My name is: "+name+" and my favourite food is "+food+"!");
+       System.out.println("***");
+       System.out.println("I am "+age+" years old and in 2 years I will be "+(age+2)+"!");
+   }
+}
 
 
 </body>
